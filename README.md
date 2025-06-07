@@ -3,6 +3,8 @@
 ## Context and Motivation
 This study introduces a complete pipeline for evaluating depth estimation and transformation models, applied to the MAN TruckScenes mini dataset, with a particular focus on the comparative analysis of three ScaleBiasModel variants characterized by different levels of computational complexity.
 
+For more details, refer to the [Report](Report_modelDepth_martone_s324807.pdf).
+
 [![LidAR Point Cloud](/assets/lidar_trucks.png)](assets/lidar_trucks.png)
 
 ## ScaleBiasModel Architectures Investigated
@@ -27,6 +29,8 @@ This multi-scale comparison strategy allows for analyzing the fundamental trade-
 ## Complete Experimental Pipeline
 The flow described in the notebook implements an integrated system that combines deep learning techniques, classical regression, and computer vision for a comprehensive evaluation of depth estimation performance.
 
+[![Experimental Pipeline](/assets/flow.png)](assets/experimental_pipeline.png)
+
 - **Dataset Acquisition and Preparation**  
   Download and preprocess the MAN TruckScenes mini dataset, aligning RGB images and LiDAR point clouds for robust training and testing.
 
@@ -48,6 +52,7 @@ The flow described in the notebook implements an integrated system that combines
 - **Detailed Per-Image Visual Analysis**  
   Visualize selected test images with overlays of depth maps, point clouds, and quantitative comparisons between all model variants and baselines within detected objects.
 
+[![3D depth estimation plot showing MAN truck scene with overlaid predicted depth map, axes labeled with spatial coordinates, and color gradient indicating depth values. The scene includes a truck and surrounding environment, with quantitative depth information visualized. No visible text in the image. Neutral, technical tone.](/Results/result_light/PLOT/02/model_3d_plot_depth_02.png)](/Results/result_light/PLOT/02/model_3d_plot_depth_02.png)
 ---
 
 ## Models Overview Performances
