@@ -59,6 +59,59 @@ The flow described in the notebook implements an integrated system that combines
 
 ## Models Overview Performances
 
+
+---
+
+## Table 1: Model Comparison (Heavy, Heavy 100 Epochs, Light, Moderate)
+
+| Model                | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
+|----------------------|-------------------|---------------------|----------------------|-----------------|------------------|
+| Heavy                | 679               | 5.025               | 4.830                | 49.8            | 50.2             |
+| Heavy 100 Epochs     | 698               | 5.210               | 7.956                | 58.2            | 41.8             |
+| Light                | 694               | 4.157               | 1.711                | 47.8            | 52.2             |
+| Moderate             | 734               | 4.480               | 7.229                | 65.7            | 34.3             |
+
+---
+
+## Table 2: Lighting Condition Comparison (Heavy)
+
+| Condition         | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
+|-------------------|-------------------|---------------------|----------------------|-----------------|------------------|
+| Illuminated       | 374               | 2.747               | 3.237                | 57.2            | 42.8             |
+| Dark              | 31                | 4.906               | 35.768               | 93.5            | 6.5              |
+| Other_lighting    | 273               | 7.787               | 4.424                | 36.3            | 63.7             |
+
+---
+
+## Table 3: Lighting Condition Comparison (Heavy 100 Epochs)
+
+| Condition         | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
+|-------------------|-------------------|---------------------|----------------------|-----------------|------------------|
+| Illuminated       | 404               | 3.089               | 6.999                | 61.4            | 38.6             |
+| Dark              | 26                | 4.558               | 29.978               | 80.8            | 19.2             |
+| Other_lighting    | 268               | 8.204               | 8.014                | 51.9            | 48.1             |
+
+---
+
+## Table 4: Lighting Condition Comparison (Light)
+
+| Condition         | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
+|-------------------|-------------------|---------------------|----------------------|-----------------|------------------|
+| Illuminated       | 411               | 2.726               | 3.604                | 61.3            | 38.7             |
+| Dark              | 28                | -2.317              | -18.641              | 32.1            | 67.9             |
+| Other_lighting    | 254               | 7.362               | 0.787                | 27.2            | 72.8             |
+
+---
+
+## Table 5: Lighting Condition Comparison (Moderate)
+
+| Condition         | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
+|-------------------|-------------------|---------------------|----------------------|-----------------|------------------|
+| Illuminated       | 430               | 2.212               | 8.648                | 76.7            | 23.3             |
+| Dark              | 22                | 3.553               | -20.337              | 13.6            | 86.4             |
+| Other_lighting    | 281               | 7.381               | 7.576                | 54.1            | 45.9             |
+
+
 - **Light Model**
   - Best overall mean absolute error: 1.711m
   - Excels in real-time applications and mixed lighting (error as low as 0.787m)
