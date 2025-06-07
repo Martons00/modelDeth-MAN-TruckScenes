@@ -4,6 +4,7 @@
 This study introduces a complete pipeline for evaluating depth estimation and transformation models, applied to the MAN TruckScenes mini dataset, with a particular focus on the comparative analysis of three ScaleBiasModel variants characterized by different levels of computational complexity.
 
 For more details, refer to the [Report](Report_modelDepth_martone_s324807.pdf).
+
 All the results and code are available in the [Results](Results) and [Scripts](Scripts) directories, respectively.
 
 [![LidAR Point Cloud](/assets/lidar_trucks.png)](assets/lidar_trucks.png)
