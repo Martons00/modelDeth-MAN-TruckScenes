@@ -45,3 +45,48 @@ The flow described in the notebook implements an integrated system that combines
 
 - **Detailed Per-Image Visual Analysis**  
   Visualize selected test images with overlays of depth maps, point clouds, and quantitative comparisons between all model variants and baselines within detected objects.
+
+---
+
+## Models Overview Performances
+
+- **Light Model**
+  - Best overall mean absolute error: 1.711m
+  - Excels in real-time applications and mixed lighting (error as low as 0.787m)
+  - Outperforms polynomial regression by 9.35x in favorable conditions
+  - Superior with sparse datasets (3.791m error vs. 10.223m for classical approaches)
+  - Ideal for commercial deployment due to speed and accuracy
+
+- **Moderate Model**
+  - Balanced between complexity and performance
+  - Shows greater variability but strong with small datasets (5.961m error vs. 9.530m for polynomial regression)
+  - 60% improvement over classical methods
+  - Acceptable inference times and higher representational capacity than Light model
+  - Suitable for consistent, moderate performance needs
+
+- **Heavy Model**
+  - Most sophisticated, achieves near-perfect balance with classical approaches
+  - Outperforms classical methods in 50.2% of cases
+  - Excels in well-lit conditions (error: 3.24m)
+  - 67.9% and 51.4% improvement over polynomial regression for small and medium datasets
+  - Adaptive in mixed lighting, outperforming classical in 63.7% of cases
+
+- **Heavy Model with 100 Epochs**
+  - Maintains strengths in specific domains, especially with sparse datasets (surpasses polynomial regression by 35.1%)
+  - Nearly equivalent to classical in mixed lighting (8.014m vs. 8.204m error)
+  - Exceptional in high-density point cloud detections (error as low as 3.73m)
+  - Suitable for highly specialized, advanced applications
+
+---
+
+## Analysis
+
+The comparative analysis between ScaleBiasModel neural network variants and polynomial regression reveals clear trade-offs. The Light model stands out for its efficiency, achieving the lowest mean absolute error among neural configurations and excelling in mixed lighting and sparse data scenarios. Its computational speed and predictive accuracy make it ideal for real-time, commercial applications. The Moderate model offers a robust balance, performing well with small datasets and maintaining versatility in complex environments. The Heavy model and its 100-epoch variant demonstrate peak performance under optimal conditions, with strong improvements over classical methods, especially in well-lit environments and with sparse data. However, extended training does not always yield better results, as seen with the Heavy_100_epochs model recording higher errors than the standard Heavy model.
+
+Polynomial regression, while less sophisticated, provides remarkable consistency and stability across all scenarios, often outperforming neural models with large datasets or in low-light conditions. Neural networks show greater variability and sensitivity to architecture and training parameters, excelling with small datasets but sometimes struggling with larger ones or challenging lighting.
+
+---
+
+## Implications
+
+For autonomous driving applications, the ScaleBiasModel variants present significant potential. The Light model’s low mean absolute error and real-time capabilities make it a strong candidate for commercial trucking, where rapid, accurate depth estimation is essential for safety. Although neural models are sensitive to environmental conditions—especially low-light scenarios—their superior performance with sparse datasets is highly relevant for real-world trucking, where sensor occlusion or weather interference may limit data availability. The varying performance across point cloud densities suggests that with optimized sensor fusion, larger training datasets, and dedicated computational resources, these architectures could become even more robust for autonomous vehicle perception systems. The integration of transformer-based depth estimation with classical regression also provides a practical fallback mechanism, enhancing system reliability in production environments where redundancy and adaptability are crucial for handling edge cases and sensor degradation.
