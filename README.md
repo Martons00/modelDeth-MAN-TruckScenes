@@ -62,7 +62,7 @@ The flow described in the notebook implements an integrated system that combines
 
 ---
 
-## Table 1: Model Comparison (Heavy, Heavy 100 Epochs, Light, Moderate)
+### Table 1: Model Comparison (Heavy, Heavy 100 Epochs, Light, Moderate)
 
 | Model                | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
 |----------------------|-------------------|---------------------|----------------------|-----------------|------------------|
@@ -73,7 +73,7 @@ The flow described in the notebook implements an integrated system that combines
 
 ---
 
-## Table 2: Lighting Condition Comparison (Heavy)
+### Table 2: Lighting Condition Comparison (Heavy)
 
 | Condition         | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
 |-------------------|-------------------|---------------------|----------------------|-----------------|------------------|
@@ -83,7 +83,7 @@ The flow described in the notebook implements an integrated system that combines
 
 ---
 
-## Table 3: Lighting Condition Comparison (Heavy 100 Epochs)
+### Table 3: Lighting Condition Comparison (Heavy 100 Epochs)
 
 | Condition         | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
 |-------------------|-------------------|---------------------|----------------------|-----------------|------------------|
@@ -93,7 +93,7 @@ The flow described in the notebook implements an integrated system that combines
 
 ---
 
-## Table 4: Lighting Condition Comparison (Light)
+### Table 4: Lighting Condition Comparison (Light)
 
 | Condition         | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
 |-------------------|-------------------|---------------------|----------------------|-----------------|------------------|
@@ -103,7 +103,7 @@ The flow described in the notebook implements an integrated system that combines
 
 ---
 
-## Table 5: Lighting Condition Comparison (Moderate)
+### Table 5: Lighting Condition Comparison (Moderate)
 
 | Condition         | Total Observations | Poly Mean Error (m) | Model Mean Error (m) | Poly Better (%) | Model Better (%) |
 |-------------------|-------------------|---------------------|----------------------|-----------------|------------------|
