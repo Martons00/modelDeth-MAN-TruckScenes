@@ -3,6 +3,8 @@
 ## Context and Motivation
 This study introduces a complete pipeline for evaluating depth estimation and transformation models, applied to the MAN TruckScenes mini dataset, with a particular focus on the comparative analysis of three ScaleBiasModel variants characterized by different levels of computational complexity.
 
+[![LidAR Point Cloud](/assets/lidar_trucks.png)](assets/lidar_trucks.png)
+
 ## ScaleBiasModel Architectures Investigated
 The experiment was designed to systematically compare three distinct ScaleBiasModel configurations, following established principles of neural model scaling. 
 
@@ -77,11 +79,14 @@ The flow described in the notebook implements an integrated system that combines
   - Exceptional in high-density point cloud detections (error as low as 3.73m)
   - Suitable for highly specialized, advanced applications
 
+[![Model Performance Overview](/assets/comparisonMeanError.png)](assets/comparisonMeanError.png)
 ---
 
 ## Analysis
 
 The comparative analysis between ScaleBiasModel neural network variants and polynomial regression reveals clear trade-offs. The Light model stands out for its efficiency, achieving the lowest mean absolute error among neural configurations and excelling in mixed lighting and sparse data scenarios. Its computational speed and predictive accuracy make it ideal for real-time, commercial applications. The Moderate model offers a robust balance, performing well with small datasets and maintaining versatility in complex environments. The Heavy model and its 100-epoch variant demonstrate peak performance under optimal conditions, with strong improvements over classical methods, especially in well-lit environments and with sparse data. However, extended training does not always yield better results, as seen with the Heavy_100_epochs model recording higher errors than the standard Heavy model.
+
+[![Model Performance Analysis](/assets/comparisonSummary.png)](assets/comparisonSummary.png)
 
 Polynomial regression, while less sophisticated, provides remarkable consistency and stability across all scenarios, often outperforming neural models with large datasets or in low-light conditions. Neural networks show greater variability and sensitivity to architecture and training parameters, excelling with small datasets but sometimes struggling with larger ones or challenging lighting.
 
