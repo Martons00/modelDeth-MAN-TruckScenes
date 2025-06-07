@@ -1,0 +1,219 @@
+Plot 01
+
+Test Loss: 480.6490
+Test Loss with 2D Polyfit : 432.3253
+Test Loss with 3D Polyfit : 335.1677
+
+Model
+Box at (1366,504)-(1978,732):
+Transformed: 17.99 m
+Absolute: 10.18 m (6259 pts)
+
+
+Box at (60,523)-(290,651):
+Transformed: 24.06 m
+Absolute: 12.87 m (1040 pts)
+
+
+Box at (1002,546)-(1267,655):
+Transformed: 26.55 m
+Absolute: 25.94 m (2754 pts)
+
+
+Box at (391,535)-(465,573):
+Transformed: 34.55 m
+Absolute: 20.93 m (283 pts)
+
+
+Box at (473,465)-(747,571):
+Transformed: 36.17 m
+Absolute: 25.64 m (4046 pts)
+
+
+Box at (19,524)-(111,609):
+Transformed: 28.42 m
+Absolute: 13.06 m (327 pts)
+
+Poly
+Box at (1366,504)-(1978,732):
+Transformed: 3.60 m
+Absolute: 10.18 m (6259 pts)
+
+
+Box at (60,523)-(290,651):
+Transformed: 14.37 m
+Absolute: 12.87 m (1040 pts)
+
+
+Box at (1002,546)-(1267,655):
+Transformed: 19.01 m
+Absolute: 25.94 m (2754 pts)
+
+
+Box at (391,535)-(465,573):
+Transformed: 38.05 m
+Absolute: 20.93 m (283 pts)
+
+
+Box at (473,465)-(747,571):
+Transformed: 42.47 m
+Absolute: 25.64 m (4046 pts)
+
+
+Box at (19,524)-(111,609):
+Transformed: 23.63 m
+Absolute: 13.06 m (327 pts)
+
+Plot 02
+Test Loss: 515.7396
+Test Loss with 2D Polyfit : 189.1227
+Test Loss with 3D Polyfit : 175.2792
+
+Model
+Box at (956,5)-(1978,937):
+Transformed: 10.81 m
+Absolute: 3.17 m (16455 pts)
+
+
+Box at (0,502)-(128,625):
+Transformed: 38.59 m
+Absolute: 15.70 m (636 pts)
+
+
+Box at (1,501)-(131,622):
+Transformed: 38.73 m
+Absolute: 15.78 m (651 pts)
+
+
+Box at (777,545)-(882,632):
+Transformed: 38.38 m
+Absolute: 11.85 m (1100 pts)
+
+
+Box at (721,485)-(793,562):
+Transformed: 44.69 m
+Absolute: 25.23 m (989 pts)
+
+
+Box at (912,539)-(967,576):
+Transformed: 41.91 m
+Absolute: 16.03 m (453 pts)
+
+
+Box at (786,545)-(874,606):
+Transformed: 38.68 m
+Absolute: 11.18 m (829 pts)
+
+Poly
+Box at (956,5)-(1978,937):
+Transformed: 4.97 m
+Absolute: 3.17 m (16455 pts)
+
+
+Box at (0,502)-(128,625):
+Transformed: 16.08 m
+Absolute: 15.70 m (636 pts)
+
+
+Box at (1,501)-(131,622):
+Transformed: 16.18 m
+Absolute: 15.78 m (651 pts)
+
+
+Box at (777,545)-(882,632):
+Transformed: 15.94 m
+Absolute: 11.85 m (1100 pts)
+
+
+Box at (721,485)-(793,562):
+Transformed: 20.45 m
+Absolute: 25.23 m (989 pts)
+
+
+Box at (912,539)-(967,576):
+Transformed: 18.43 m
+Absolute: 16.03 m (453 pts)
+
+
+Box at (786,545)-(874,606):
+Transformed: 16.15 m
+Absolute: 11.18 m (829 pts)
+
+Plot 3
+Test Loss: 418.3558
+Test Loss with 2D Polyfit : 268.5999
+Test Loss with 3D Polyfit : 264.2416
+
+Model
+Box at (1,674)-(493,939):
+Transformed: 3.93 m
+Absolute: 3.52 m (517 pts)
+
+
+Box at (1088,577)-(1342,795):
+Transformed: 14.33 m
+Absolute: 9.63 m (1797 pts)
+
+
+Box at (1131,476)-(1227,580):
+Transformed: 31.09 m
+Absolute: 18.27 m (1578 pts)
+
+
+Box at (1454,492)-(1540,533):
+Transformed: 34.75 m
+Absolute: 19.41 m (329 pts)
+
+
+Box at (0,491)-(291,642):
+Transformed: 22.50 m
+Absolute: 14.47 m (1967 pts)
+
+
+Box at (1573,320)-(1611,372):
+Transformed: 34.09 m
+Absolute: 13.56 m (9 pts)
+
+
+Box at (0,498)-(292,647):
+Transformed: 21.88 m
+Absolute: 14.55 m (1903 pts)
+
+Poly
+Box at (1,674)-(493,939):
+Transformed: 5.61 m
+Absolute: 3.52 m (517 pts)
+
+
+Box at (1088,577)-(1342,795):
+Transformed: 5.56 m
+Absolute: 9.63 m (1797 pts)
+
+
+Box at (1131,476)-(1227,580):
+Transformed: 18.25 m
+Absolute: 18.27 m (1578 pts)
+
+
+Box at (1454,492)-(1540,533):
+Transformed: 21.73 m
+Absolute: 19.41 m (329 pts)
+
+
+Box at (0,491)-(291,642):
+Transformed: 10.97 m
+Absolute: 14.47 m (1967 pts)
+
+
+Box at (1573,320)-(1611,372):
+Transformed: 21.10 m
+Absolute: 13.56 m (9 pts)
+
+
+Box at (0,498)-(292,647):
+Transformed: 10.42 m
+Absolute: 14.55 m (1903 pts)
+
+
+
+

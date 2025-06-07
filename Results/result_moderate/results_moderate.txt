@@ -1,0 +1,105 @@
+Moderate
+
+Test Loss: 586.6367
+Test Loss with 2D Polyfit : 326.8411
+Test Loss with 3D Polyfit : 248.8826
+
+=== QUANTITATIVE ANALYSIS ===
+Total number of observations: 734
+Range of number of points: 4 - 31593
+
+Poly Statistics:
+  Mean error: 4.480 ± 9.943 m
+  Mean error per point: 0.123209 m
+
+Model Statistics:
+  Mean error: 7.229 ± 12.212 m
+  Mean error per point: 0.083801 m
+
+Comparison:
+  Poly better in 482/734 cases (65.7%)
+  Model better in 252/734 cases (34.3%)
+
+Analysis by ranges:
+  Small (≤100): Poly=9.530m, Model=5.961m, Diff=-3.569m
+  Medium (101-300): Poly=7.371m, Model=7.608m, Diff=0.237m
+  Large (>300): Poly=3.305m, Model=7.303m, Diff=3.998m
+
+
+Condition : Illuminated
+Test Loss with 3D Model : 492.2422
+Test Loss with 2D Polyfit : 262.5440
+Test Loss with 3D Polyfit : 203.3182
+
+=== QUANTITATIVE ANALYSIS ===
+Total number of observations: 430
+Range of number of points: 7 - 21715
+
+Poly Statistics:
+  Mean error: 2.212 ± 8.878 m
+  Mean error per point: 0.005245 m
+
+Model Statistics:
+  Mean error: 8.648 ± 12.037 m
+  Mean error per point: 0.027048 m
+
+Comparison:
+  Poly better in 330/430 cases (76.7%)
+  Model better in 100/430 cases (23.3%)
+
+Analysis by ranges:
+  Small (≤100): Poly=0.991m, Model=-1.673m, Diff=-2.664m
+  Medium (101-300): Poly=4.174m, Model=11.984m, Diff=7.810m
+  Large (>300): Poly=1.998m, Model=8.770m, Diff=6.771m
+
+Condition : Dark
+Test Loss with 3D Model : 492.2422
+Test Loss with 2D Polyfit : 489.2479
+Test Loss with 3D Polyfit : 363.7921
+
+=== QUANTITATIVE ANALYSIS ===
+Total number of observations: 22
+Range of number of points: 67 - 2595
+
+Poly Statistics:
+  Mean error: 3.553 ± 13.635 m
+  Mean error per point: -0.011369 m
+
+Model Statistics:
+  Mean error: -20.337 ± 22.274 m
+  Mean error per point: -0.117513 m
+
+Comparison:
+  Poly better in 3/22 cases (13.6%)
+  Model better in 19/22 cases (86.4%)
+
+Analysis by ranges:
+  Small (≤100): Poly=-27.265m, Model=-72.622m, Diff=-45.357m
+  Medium (101-300): Poly=0.084m, Model=-35.260m, Diff=-35.343m
+  Large (>300): Poly=7.490m, Model=-9.141m, Diff=-16.631m
+
+Condition : Other_lighting
+Test Loss with 3D Model : 492.2422
+Test Loss with 2D Polyfit : 397.9207
+Test Loss with 3D Polyfit : 299.3916
+
+=== QUANTITATIVE ANALYSIS ===
+Total number of observations: 281
+Range of number of points: 4 - 31593
+
+Poly Statistics:
+  Mean error: 7.381 ± 9.685 m
+  Mean error per point: 0.218343 m
+
+Model Statistics:
+  Mean error: 7.576 ± 8.819 m
+  Mean error per point: 0.136184 m
+
+Comparison:
+  Poly better in 152/281 cases (54.1%)
+  Model better in 129/281 cases (45.9%)
+
+Analysis by ranges:
+  Small (≤100): Poly=12.479m, Model=10.462m, Diff=-2.016m
+  Medium (101-300): Poly=10.972m, Model=10.065m, Diff=-0.906m
+  Large (>300): Poly=5.315m, Model=6.280m, Diff=0.966m

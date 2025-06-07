@@ -1,0 +1,169 @@
+Plot 01
+Test Loss: 689.4765
+Test Loss with 2D Polyfit : 383.5894
+Test Loss with 3D Polyfit : 238.8663
+
+Model
+Box at (325,552)-(585,677):
+Transformed: 50.59 m
+Absolute: 14.69 m (1365 pts)
+
+Poly
+Box at (325,552)-(585,677):
+Transformed: 23.58 m
+Absolute: 14.69 m (1365 pts)
+
+
+Plot 02
+Test Loss: 305.9199
+Test Loss with 2D Polyfit : 291.4187
+Test Loss with 3D Polyfit : 290.7149
+
+Model
+Box at (1541,544)-(1979,703):
+Transformed: 12.76 m
+Absolute: 15.53 m (2653 pts)
+
+
+Box at (130,517)-(211,554):
+Transformed: 20.69 m
+Absolute: 21.37 m (161 pts)
+
+
+Box at (1319,557)-(1368,600):
+Transformed: 17.96 m
+Absolute: 28.06 m (309 pts)
+
+
+Poly
+Box at (1541,544)-(1979,703):
+Transformed: 16.62 m
+Absolute: 15.53 m (2653 pts)
+
+
+Box at (130,517)-(211,554):
+Transformed: 24.68 m
+Absolute: 21.37 m (161 pts)
+
+
+Box at (1319,557)-(1368,600):
+Transformed: 21.94 m
+Absolute: 28.06 m (309 pts)
+
+
+Plot 03
+Test Loss: 255.7424
+Test Loss with 3D Polyfit : 265.8769
+Test Loss with 3D Polyfit : 167.2951
+
+Model
+Box at (1515,513)-(1712,610):
+Transformed: 22.56 m
+Absolute: 13.29 m (1597 pts)
+
+
+Box at (402,535)-(495,584):
+Transformed: 34.01 m
+Absolute: 32.24 m (472 pts)
+
+
+Box at (0,531)-(168,627):
+Transformed: 24.41 m
+Absolute: 16.59 m (743 pts)
+
+
+Box at (1528,268)-(1556,337):
+Transformed: 36.18 m
+Absolute: 41.64 m (3 pts)
+
+
+Box at (1275,492)-(1405,603):
+Transformed: 25.19 m
+Absolute: 14.75 m (2020 pts)
+
+
+Box at (160,551)-(356,637):
+Transformed: 26.04 m
+Absolute: 18.18 m (887 pts)
+
+
+Box at (283,547)-(357,589):
+Transformed: 28.46 m
+Absolute: 23.97 m (236 pts)
+
+
+Box at (209,548)-(357,605):
+Transformed: 27.36 m
+Absolute: 19.87 m (622 pts)
+
+
+Box at (1269,404)-(1287,451):
+Transformed: 37.97 m
+Absolute: 57.69 m (6 pts)
+
+
+Box at (1042,523)-(1066,605):
+Transformed: 28.07 m
+Absolute: 18.65 m (387 pts)
+
+
+Box at (244,547)-(357,594):
+Transformed: 27.80 m
+Absolute: 21.77 m (402 pts)
+
+Poly
+Box at (1515,513)-(1712,610):
+Transformed: 13.57 m
+Absolute: 13.29 m (1597 pts)
+
+
+Box at (402,535)-(495,584):
+Transformed: 38.87 m
+Absolute: 32.24 m (472 pts)
+
+
+Box at (0,531)-(168,627):
+Transformed: 16.94 m
+Absolute: 16.59 m (743 pts)
+
+
+Box at (1528,268)-(1556,337):
+Transformed: 44.41 m
+Absolute: 41.64 m (3 pts)
+
+
+Box at (1275,492)-(1405,603):
+Transformed: 18.65 m
+Absolute: 14.75 m (2020 pts)
+
+
+Box at (160,551)-(356,637):
+Transformed: 20.40 m
+Absolute: 18.18 m (887 pts)
+
+
+Box at (283,547)-(357,589):
+Transformed: 25.74 m
+Absolute: 23.97 m (236 pts)
+
+
+Box at (209,548)-(357,605):
+Transformed: 23.32 m
+Absolute: 19.87 m (622 pts)
+
+
+Box at (1269,404)-(1287,451):
+Transformed: 49.01 m
+Absolute: 57.69 m (6 pts)
+
+
+Box at (1042,523)-(1066,605):
+Transformed: 24.88 m
+Absolute: 18.65 m (387 pts)
+
+
+Box at (244,547)-(357,594):
+Transformed: 24.27 m
+Absolute: 21.77 m (402 pts)
+
+
